@@ -41,12 +41,3 @@ def calculate(array_categ, array_percent, wage):
     print(f'\nYou should spend only R$' + txt.format(valor = amt) + f' on {category[i]}')
 
 categories()
-
-
-
-"""Nome: Kaio Henrique Silva da Cunha
-CPF: 054.831.594-97
-Categoria: B 
-Email: kaiohsdc@gmail.com
-Telefone: 98134-6633
-"""
