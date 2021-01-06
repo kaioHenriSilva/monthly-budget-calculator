@@ -10,7 +10,7 @@ Original file is located at
 def categories():
     #aqui o usuário insere categorias de despesas mensais, como aluguel, energia, etc
     #vou modificar esse trecho em breve para que as categorias informadas fiquem salvas
-    name_list = ['Savings', 'Education', 'Utilities', 'Transportation', 'Clothing', 'Personal Expenses', 'Entertainment']   
+    name_list = ['Savings', 'Education', 'Utilities', 'Transportation', 'Clothing', 'Personal Expenses']   
 
     assign_percentages(name_list)
 
