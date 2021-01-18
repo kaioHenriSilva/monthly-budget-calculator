@@ -10,21 +10,16 @@ Original file is located at
 def categories():
     #aqui o usuário insere categorias de despesas mensais, como aluguel, energia, etc
     #vou modificar esse trecho em breve para que as categorias informadas fiquem salvas
-    name_list = ['Savings', 'Education', 'Utilities', 'Transportation', 'Clothing', 'Personal Expenses']   
+    name_list = ['Savings', 'Education', 'Billings', 'Transportation', 'Clothing', 'Housing', 'Personal Expenses']   
 
     assign_percentages(name_list)
 
 def assign_percentages(listing):
-    array_size = len(listing)
-    percent_list = []
+    percent_list = [12, 34, 10, 10, 5, 15, 14]
     names_list = listing
 
 
     salary = float(input('How much did you earn this month?'))
-
-    for i in range(array_size):
-        percent = float(input(f'How much can you spend on {names_list[i]}?(%)'))
-        percent_list.append(percent)
 
     calculate(names_list, percent_list, salary)
 
